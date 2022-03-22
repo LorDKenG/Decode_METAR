@@ -26,5 +26,3 @@ for airport in list_airport:
     a.model_f()
     a.model_g()
     print('finish_'+airport)
-
-#fish
