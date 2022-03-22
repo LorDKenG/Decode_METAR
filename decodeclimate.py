@@ -1,5 +1,3 @@
-from ast import If
-from cgi import test
 import os
 import re 
 import latlon
@@ -13,7 +11,6 @@ from datetime import date, timedelta
 lastMonth = date.today().replace(day=1) - timedelta(days=1)
 
 class decode:
-    
     
     # input variable
     def __init__(self, code = 'VTBS', mon = lastMonth.strftime("%m") , year = lastMonth.strftime("%Y")):
